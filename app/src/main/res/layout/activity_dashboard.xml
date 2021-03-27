@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_marginLeft="-113dp"
+                android:layout_marginLeft="-108dp"
                 android:src="@drawable/icon" />
 
         </RelativeLayout>
@@ -49,6 +49,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/baloo"
                     android:padding="25dp"
+                    android:textColor="@color/black"
                     android:text="FIND OPPORTUNITIES!"
                     android:textSize="29sp" />
 
@@ -57,7 +58,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Explore"
-                    android:backgroundTint="@color/black"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:layout_marginBottom="10dp"
@@ -83,6 +85,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/baloo"
                     android:text="FIND VOLUNTEERS!"
+                    android:textColor="@color/black"
                     android:textSize="29sp"
                     android:padding="25dp"/>
 
@@ -91,7 +94,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Explore"
-                    android:backgroundTint="@color/black"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:layout_marginBottom="10dp"

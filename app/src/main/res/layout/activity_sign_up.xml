@@ -22,13 +22,13 @@
         android:transitionName="logo_text"
         android:textSize="40sp"
         android:fontFamily="@font/bungee"
-        android:textColor="#FECE2F"
+        android:textColor="#3ab6ff"
         android:layout_marginTop="-20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register to start your Volunteering Journey!"
+        android:text="Register to be a part of our community!"
         android:textSize="18sp"
         android:transitionName="sub_logo_text"
         android:layout_marginTop="-20dp"/>
@@ -107,7 +107,7 @@
         android:id="@+id/reg_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FECE2F"
+        android:backgroundTint="#3ab6ff"
         android:text="REGISTER"
         android:textColor="@color/white"
         android:transitionName="button_trans" />

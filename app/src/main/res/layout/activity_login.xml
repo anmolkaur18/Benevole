@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/bungee"
         android:text="HELLO THERE WELCOME BACK!"
-        android:textColor="#FECE2F"
+        android:textColor="#3ab6ff"
         android:textSize="40sp"
         android:transitionName="logo_text" />
 
@@ -94,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LOG IN"
-            android:backgroundTint="#FECE2F"
+            android:backgroundTint="#3ab6ff"
             android:textColor="#fff"
             android:transitionName="button_trans"
             android:layout_marginTop="5dp"
