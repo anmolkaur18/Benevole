@@ -64,7 +64,7 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="300dp"/>
+                    android:layout_marginLeft="250dp"/>
 
 
             </RelativeLayout>
@@ -100,7 +100,7 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="300dp"/>
+                    android:layout_marginLeft="250dp"/>
 
 
             </RelativeLayout>
