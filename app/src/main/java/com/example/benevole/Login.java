@@ -31,11 +31,99 @@ public class Login extends AppCompatActivity {
     TextView logoText, sloganText;
     TextInputLayout username, password;
 
+    private Boolean validateUsername(){
+        String val = username.getEditText().getText().toString();
+
+        if(val.isEmpty()){
+            username.setError("Field cannot be empty!");
+            return false;
+
+        }
+        else{
+            username.setError(null);
+            username.setErrorEnabled(false);
+            return true;
+        }
+    }
+
+    private Boolean validatePassword(){
+        String val = password.getEditText().getText().toString();
+
+        if(val.isEmpty()){
+            username.setError("Field cannot be empty!");
+            return false;
+
+        }
+        else{
+            username.setError(null);
+            username.setErrorEnabled(false);
+            return true;
+        }
+    }
+
+    public void loginUser(View view){
+        if(!validateUsername() | !validatePassword()){
+            return;
+        }
+        else{
+            isUser();
+        }
+    }
+
+    private void isUser(){
+        String userEnteredUsername = username.getEditText().getText().toString().trim();
+        String userEnteredPassword = password.getEditText().getText().toString().trim();
+
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users");
+
+        Query checkUser = reference.orderByChild("username").equalTo(userEnteredUsername);
+
+        checkUser.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                if(dataSnapshot.exists()){
+
+                    username.setError(null);
+                    username.setErrorEnabled(false);
+                    String passwordFromDB = dataSnapshot.child(userEnteredUsername).child("password").getValue(String.class);
+
+                    if(passwordFromDB.equals(userEnteredPassword)){
+
+                        username.setError(null);
+                        username.setErrorEnabled(false);
+                        String emailFromDB = dataSnapshot.child(userEnteredUsername).child("email").getValue(String.class);
+                        String usernameFromDB = dataSnapshot.child(userEnteredUsername).child("username").getValue(String.class);
+                        String phoneNoFromDB = dataSnapshot.child(userEnteredUsername).child("phoneNo").getValue(String.class);
+
+                        Intent intent = new Intent(getApplicationContext(),Dashboard.class);
+
+                        startActivity(intent);
+                    }
+                    else{
+                        password.setError("Wrong Password");
+                        password.requestFocus();
+                    }
+                }
+                else{
+                    username.setError("No such user exist");
+                    password.requestFocus();
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
+
 
         //hooks
         CallSignUp = findViewById(R.id.SignUp_Screen);
@@ -67,11 +155,13 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        login_btn.setOnClickListener(new View.OnClickListener() {
+
+      /* login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Login.this, Dashboard.class));
             }
         });
+      */
     }
 }

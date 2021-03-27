@@ -19,7 +19,81 @@ public class SignUp extends AppCompatActivity {
 
     FirebaseDatabase rootNode;
     DatabaseReference reference;
+/*
+    //validation
+    private Boolean validateUserName(){
+        String val = regUsername.getEditText().getText().toString();
 
+        if(val.isEmpty()){
+            regUsername.setError("Field cannot be empty");
+            return false;
+        }
+        else if(val.length()>=15){
+            regUsername.setError("Username too long");
+            return false;
+        }
+        else{
+            regUsername.setError(null);
+            regUsername.setErrorEnabled(false);
+            return true;
+        }
+    }
+
+    private Boolean validateEmail(){
+        String val = regEmail.getEditText().getText().toString();
+        String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+
+        if(val.isEmpty()){
+            regUsername.setError("Field cannot be empty");
+            return false;
+        }
+        else if(!val.matches(emailPattern)){
+            regUsername.setError("Invalid email address");
+            return false;
+        }
+        else{
+            regUsername.setError(null);
+            regUsername.setErrorEnabled(false);
+            return true;
+        }
+    }
+
+    private Boolean validatePhoneNo(){
+        String val = regPhoneNo.getEditText().getText().toString();
+
+        if(val.isEmpty()){
+            regUsername.setError("Field cannot be empty");
+            return false;
+        }
+        else if(val.length()>=11){
+            regUsername.setError("Username too long");
+            return false;
+        }
+        else{
+            regUsername.setError(null);
+            regUsername.setErrorEnabled(false);
+            return true;
+        }
+    }
+
+    private Boolean validatePassword(){
+        String val = regPassword.getEditText().getText().toString();
+
+        if(val.isEmpty()){
+            regUsername.setError("Field cannot be empty");
+            return false;
+        }
+        else if(val.length()>=15){
+            regUsername.setError("Username too long");
+            return false;
+        }
+        else{
+            regUsername.setError(null);
+            regUsername.setErrorEnabled(false);
+            return true;
+        }
+    }
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +108,11 @@ public class SignUp extends AppCompatActivity {
         regBtn = findViewById(R.id.reg_button);
         regToLoginBtn = findViewById(R.id.reg_login_btn);
 
+      // if(!validateUserName() | !validatePassword() | !validatePhoneNo() | !validateEmail()){
+      // return ;
+    // }
+
+        // saves data in firebase on button click
         regBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,6 +132,5 @@ public class SignUp extends AppCompatActivity {
         });
 
     }
-
 
 }
