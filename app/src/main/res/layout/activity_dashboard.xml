@@ -32,11 +32,12 @@
             android:text="WELCOME!"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:textSize="40sp" />
+            android:textSize="60sp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="190dp">
+            android:layout_height="190dp"
+            android:layout_marginTop="20dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -63,7 +64,7 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="250dp"/>
+                    android:layout_marginLeft="300dp"/>
 
 
             </RelativeLayout>
@@ -99,7 +100,7 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="250dp"/>
+                    android:layout_marginLeft="300dp"/>
 
 
             </RelativeLayout>
