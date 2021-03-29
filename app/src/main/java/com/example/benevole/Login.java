@@ -105,6 +105,7 @@ public class Login extends AppCompatActivity {
                                 if (task.isSuccessful()) {
 
                                     startActivity(new Intent(getApplicationContext(), Dashboard.class));
+                                    Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
                                 }
                                 else {
 
