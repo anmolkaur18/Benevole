@@ -11,6 +11,7 @@ import android.widget.Button;
 public class Dashboard extends AppCompatActivity {
 
     public Button button1;
+    public Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,11 +20,19 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
         button1=findViewById(R.id.opp_button);
+        button2=findViewById(R.id.vol_button);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Dashboard.this, ShowEvents.class));
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dashboard.this, PostEvent.class));
             }
         });
 
