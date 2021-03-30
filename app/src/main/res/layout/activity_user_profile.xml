@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        android:background="#3ab6ff">
+
+        <ImageView
+            android:id="@+id/profile_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"
+            android:layout_centerVertical="true"/>
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERMAME"
+            android:textSize="30sp"
+            android:fontFamily="@font/bungee"
+            android:layout_toRightOf="@id/profile_img"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameTitle"
+            android:textColor="@color/black"
+            android:text="Username: "
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:textColor="@color/black"
+            android:text="Dummy Username"
+            android:layout_marginTop="10sp"
+            android:textSize="15dp"
+            tools:ignore="DuplicateIds" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailTitle"
+            android:textColor="@color/black"
+            android:text="Email: "
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="17dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textColor="@color/black"
+            android:text="Dummy Email"
+            android:layout_marginTop="10sp"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneTitle"
+            android:textColor="@color/black"
+            android:text="Phone No.: "
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:textColor="@color/black"
+            android:text="Dummy Number"
+            android:layout_marginTop="10sp"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordTitle"
+            android:textColor="@color/black"
+            android:text="Username: "
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:textColor="@color/black"
+            android:text="Dummy Username"
+            android:layout_marginTop="10sp"
+            android:textSize="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
