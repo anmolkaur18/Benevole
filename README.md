@@ -63,15 +63,15 @@ The 2021 Solution Challenge mission is to solve for one or more of the United Na
 
 Check out more here about it: https://developers.google.com/community/dsc-solution-challenge 
 
+## Contributors
+
+Anmol| Chinmay| Shivangi| Anushri
+------------ | ------------- |------------ | -------------
+[![](https://github.com/anmolkaur18.png?size=90)](https://github.com/anmolkaur18) | [![](https://github.com/chinmaychahar.png?size=90)](https://github.com/chinmaychahar) | [![](https://github.com/shivangiruhela.png?size=90)](https://github.com/shivangiruhela) | [![](https://github.com/anushri-pc.png?size=90)](https://github.com/anushri-pc)
+
 ## Screenshots 
 <pre>
 <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Splash screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Login screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Signup screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Dashboard screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/UserProfile screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/ShowEvents screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Postevents screen.png" width = "200">
 
 <pre>
 
-
-## Contributors
-
-Anmol| Chinmay| Shivangi| Anushri
------------- | ------------- |------------ | -------------
-[![](https://github.com/anmolkaur18.png?size=90)](https://github.com/anmolkaur18) | [![](https://github.com/chinmaychahar.png?size=90)](https://github.com/chinmaychahar) | [![](https://github.com/shivangiruhela.png?size=90)](https://github.com/shivangiruhela) | [![](https://github.com/anushri-pc.png?size=90)](https://github.com/anushri-pc)
