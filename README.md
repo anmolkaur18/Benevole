@@ -1,4 +1,4 @@
-## Benevole
+<h1 align="center"> Benevole </h1> <br>
 Benevole App Prototype 
 
 Google Developers Solution Challenge 2021 submission.
