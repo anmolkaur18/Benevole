@@ -60,7 +60,7 @@ A few of the things you can do with Benevole:
 
 The 2021 Solution Challenge mission is to solve for one or more of the United Nations 17 Sustainable Development Goals using Google technology.
 
-Check out more here about it: https://developers.google.com/community/dsc-solution-challenge 
+Check out more about it here: https://developers.google.com/community/dsc-solution-challenge 
 
 ## Contributors
 
