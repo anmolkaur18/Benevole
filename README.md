@@ -34,6 +34,29 @@ A few of the things you can do with Benevole:
 
 ## Tech Stack
 
+<table>
+  <tbody>
+    <tr valign="top">
+      <td width="25%" align="center">
+        <span><strong>Java</strong></span><br><br><br>
+        <img height="100px" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png">
+      </td>
+      <td width="25%" align="center">
+	      <span><strong>Firebase</strong></span><br><br><br>
+        <img height="100px" src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png">
+      </td>
+      <td width="25%" align="center">
+	      <span><strong>XML</strong></span><br><br><br>
+        <img height="64px" src="https://png.pngtree.com/element_our/png_detail/20181227/xml-vector-icon-png_287418.jpg">
+      </td>
+      <td width="25%" align="center">
+        <span><strong>Android Studio</strong></span><br><br><br>
+        <img height="64px" src="https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png">
+      </td>
+     </tr>
+  </tbody>
+</table>
+
 ## Build process
 
 
