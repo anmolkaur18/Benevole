@@ -15,7 +15,7 @@
 - [Tech Stack](#tech-stack)
 - [Build Process](#build-process)
 - [Screenshots](#screenshots)
-- [About Google Developers Student Challenge](#about-google-developers-student-challenge)
+- [About DSC solution challenge](#about-dsc-solution-challenge)
 - [Contributors](#contributors)
 
 ## Introduction
@@ -40,6 +40,8 @@ A few of the things you can do with Benevole:
 <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/splash screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Login screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/signup screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Email Verification.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Dashboard screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/UserProfile screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Postevents screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/ShowEvents screen.jpg" width = "200"> 
 <pre>
 
-## About Google Developers Student Challenge
+## About DSC solution challenge
 
-## Conributors
+
+## Contributors
+
