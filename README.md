@@ -65,18 +65,11 @@ The 2021 Solution Challenge mission is to solve for one or more of the United Na
 https://developers.google.com/community/dsc-solution-challenge 
 
 ## Contributors
-Anmol Kaur <a href="https://github.com/anmolkaur18">
-  <img src="https://github.com/anmolkaur18.png?size=50">
-</a>
-Chinmay Chahar <a href="https://github.com/chinmaychahar">
-  <img src="https://github.com/chinmaychahar.png?size=50">
-</a>
-Shivangi Ruhela <a href="https://github.com/shivangiruhela">
-  <img src="https://github.com/shivangiruhela.png?size=50">
-</a>
-Anushri <a href="https://github.com/anushri-pc">
-  <img src="https://github.com/anushri-pc.png?size=50">
-</a>
+- Anmol Kaur - https://github.com/anmolkaur18
+- Chinmay Chahar - https://github.com/chinmaychahar
+- Shivangi Ruhela - https://github.com/shivangiruhela">
+- Anushri - https://github.com/anushri-pc
+
 
 ## Screenshots 
 <pre>
