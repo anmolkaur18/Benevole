@@ -67,7 +67,7 @@ https://developers.google.com/community/dsc-solution-challenge
 ## Contributors
 - Anmol Kaur - https://github.com/anmolkaur18
 - Chinmay Chahar - https://github.com/chinmaychahar
-- Shivangi Ruhela - https://github.com/shivangiruhela">
+- Shivangi Ruhela - https://github.com/shivangiruhela"
 - Anushri - https://github.com/anushri-pc
 
 
