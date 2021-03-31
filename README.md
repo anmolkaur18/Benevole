@@ -7,7 +7,7 @@ This app is specifically designed to provide an interface between the people who
 
 # Screenshots 
 <pre>
-<img src = "https://github.com/chinmaychahar/benevole/blob/master/images/ss0.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/images/ss1.jpg" width = "250"> 
+<img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/splash screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Login screen.jpg" width = "250"> 
 
 <pre>
 
