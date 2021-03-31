@@ -12,7 +12,7 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Tech Stack])#tech-stack)
+- [Tech Stack])(#tech-stack)
 - [Build Process](#build-process)
 - [Screenshots](#screenshots)
 - [About Google Developers Student Challenge](#about-google-developers-student-challenge)
