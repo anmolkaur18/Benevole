@@ -7,7 +7,7 @@ This app is specifically designed to provide an interface between the people who
 
 # Screenshots 
 <pre>
-<img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/splash screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Login screen.jpg" width = "250"> 
+<img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/splash screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Login screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/signup screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Email Verification.png" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Dashboard screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/UserProfile screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Postevents screen.jpg" width = "250"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/ShowEvents screen.jpg" width = "250"> 
 
 <pre>
 
