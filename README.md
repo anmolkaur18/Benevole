@@ -30,7 +30,7 @@ A few of the things you can do with Benevole:
 * *Find plethora of volunteering opportunities*
 * *Post an event asking for volunteers*
 * *Connect with similar people*
-<br>->*More features coming soon :)*
+* <br>->*More features coming soon :)*
 
 ## Tech Stack
 
