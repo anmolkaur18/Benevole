@@ -4,7 +4,7 @@
  </p>
  
 <p align="center">
-  Google Developers Solution Challenge 2021 submission
+  Google DSC Solution Challenge 2021 submission
 </p>
 
 
