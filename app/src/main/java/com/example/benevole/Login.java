@@ -21,6 +21,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -105,9 +106,19 @@ public class Login extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
+                                    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-                                    startActivity(new Intent(getApplicationContext(), Dashboard.class));
-                                    Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
+                                    if(user.isEmailVerified()){
+                                        // redirect to dashboard
+
+                                        Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
+                                        startActivity(new Intent(getApplicationContext(), Dashboard.class));
+                                    }
+                                    else{
+                                        user.sendEmailVerification();
+                                        Toast.makeText(Login.this, "Check your email to verify your account!",Toast.LENGTH_LONG).show();
+                                    }
+
                                 }
                                 else {
 
