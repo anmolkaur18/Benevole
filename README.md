@@ -64,8 +64,9 @@ https://developers.google.com/community/dsc-solution-challenge
 ## Screenshots 
 <pre>
 <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/splash screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Login screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/signup screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Email Verification.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Dashboard screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/UserProfile screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Postevents screen.jpg" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/ShowEvents screen.jpg" width = "200"> 
-<pre>
+</pre>
 
+<br>
 
 ## Contributors
 
