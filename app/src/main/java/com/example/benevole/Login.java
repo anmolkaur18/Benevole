@@ -98,6 +98,8 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Password too short", Toast.LENGTH_SHORT).show();
                 }
 
+
+
                 firebaseAuth.signInWithEmailAndPassword(email,password)
                         .addOnCompleteListener(Login.this, new OnCompleteListener<AuthResult>() {
                             @Override
