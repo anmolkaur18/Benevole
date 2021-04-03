@@ -15,6 +15,7 @@
 - [Tech Stack](#tech-stack)
 - [About DSC solution challenge](#about-dsc-solution-challenge)
 - [Contributors](#contributors)
+- [Screenshots](#screenshots)
 
 
 ## Introduction
@@ -71,5 +72,4 @@ Anmol| Chinmay| Shivangi| Anushri
 <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Splash screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Login screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Signup screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Dashboard screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/UserProfile screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/ShowEvents screen.png" width = "200"> <img src = "https://github.com/chinmaychahar/benevole/blob/master/screenshots/Postevents screen.png" width = "200">
 
 <pre>
->>>>>>> 75faa6d51de17e8943b4a6fcc9e4fff67fcd2fbe
 
